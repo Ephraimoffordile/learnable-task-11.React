@@ -1,5 +1,5 @@
 import React from "react";
-import JobCard from "./jobcard"; 
+import JobCard from "./JobCard"; 
 import { jobs } from "./jobs";
 
 const JobList: React.FC = () => {
