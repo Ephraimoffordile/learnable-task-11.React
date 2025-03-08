@@ -1,7 +1,5 @@
 import './App.css';
-import Footer from './footer';
-import React from 'react';
-import JobList from './jobList';
+import JobList from './JobList';
 
 
 function App() {
@@ -9,6 +7,7 @@ function App() {
     <div style={{ padding: '20px' }}>
       <h1>Job Listings</h1>
       <JobList />
+      <footer />
     </div>
   );
 }
